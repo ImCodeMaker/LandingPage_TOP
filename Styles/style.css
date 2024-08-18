@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+header {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px;
+}
+
+.navbar-items {
+    display: flex; /* Align the list items horizontally */
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+.navbar-items li {
+    margin-left: 20px; /* Spacing between links */
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10px 15px; /* Padding around links */
+    border-radius: 5px;
+    color: #f9faf8da;
+}
+
+
+.page-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-left:  100px;
+}
+ 
+.section-header {
+    margin: 106px;
+}
+
+#text-hero {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-left: -10px; /* Remove margin */
+}
+
+#little-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    margin: 0; /* Remove margin */
+    margin-top: 1px; /* Adjust overlap if needed */
+    width: 340px;
+}
+
+#signupButton {
+    background-color: #3882F6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    margin: 25px;
+    margin-left: -10px;
+}
